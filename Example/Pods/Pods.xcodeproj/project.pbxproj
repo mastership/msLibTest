@@ -17,6 +17,8 @@
 		E7E73D47C4DEC61A6193C1FC282CD8A5 /* Pods-msLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B1F107846998638A1F9B337FC5043 /* Pods-msLibTest_Tests-dummy.m */; };
 		E80449A551EB1190B709EC81183C8EC8 /* msLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5498E9E358EA101098CDCA489F71DBE5 /* msLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBAB65846C4846C417E2A39937AFD974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA1C115E1F037CF100F207CB /* msLibTestUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1C115C1F037CF100F207CB /* msLibTestUtil.h */; };
+		FA1C115F1F037CF100F207CB /* msLibTestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1C115D1F037CF100F207CB /* msLibTestUtil.m */; };
 		FA81D6641F0378F4004EA3B3 /* msLibTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */; };
 		FA81D6651F0378F4004EA3B3 /* msLibTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		D27E37D13402C17CA358D80EE9066F2C /* msLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = msLibTest.xcconfig; sourceTree = "<group>"; };
 		DF641A6B96AE9CF981BD200290FA43D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F098D7DBA131CB2D5B6886D96EF08A8A /* Pods-msLibTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msLibTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FA1C115C1F037CF100F207CB /* msLibTestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msLibTestUtil.h; sourceTree = "<group>"; };
+		FA1C115D1F037CF100F207CB /* msLibTestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = msLibTestUtil.m; sourceTree = "<group>"; };
 		FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msLibTestLog.h; sourceTree = "<group>"; };
 		FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = msLibTestLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +151,8 @@
 				DF641A6B96AE9CF981BD200290FA43D2 /* ReplaceMe.m */,
 				FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */,
 				FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */,
+				FA1C115C1F037CF100F207CB /* msLibTestUtil.h */,
+				FA1C115D1F037CF100F207CB /* msLibTestUtil.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1C115E1F037CF100F207CB /* msLibTestUtil.h in Headers */,
 				E80449A551EB1190B709EC81183C8EC8 /* msLibTest-umbrella.h in Headers */,
 				FA81D6641F0378F4004EA3B3 /* msLibTestLog.h in Headers */,
 			);
@@ -363,6 +370,7 @@
 				FA81D6651F0378F4004EA3B3 /* msLibTestLog.m in Sources */,
 				432BD8F4CA50230B7D96F0EE637B8AC4 /* msLibTest-dummy.m in Sources */,
 				5255C521942B9B9E4F8C4BE1712A579E /* ReplaceMe.m in Sources */,
+				FA1C115F1F037CF100F207CB /* msLibTestUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
