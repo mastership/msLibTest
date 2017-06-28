@@ -1,0 +1,6 @@
+framework module msLibTest {
+  umbrella header "msLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

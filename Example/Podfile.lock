@@ -1,0 +1,16 @@
+PODS:
+  - msLibTest (0.1.0)
+
+DEPENDENCIES:
+  - msLibTest (from `../`)
+
+EXTERNAL SOURCES:
+  msLibTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  msLibTest: b8685909258ded884d7e936d3e6acea330365ce1
+
+PODFILE CHECKSUM: 80be79a2d3470f1e21bae3b88e85e9e473039421
+
+COCOAPODS: 1.2.1

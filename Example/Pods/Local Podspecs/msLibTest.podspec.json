@@ -1,0 +1,22 @@
+{
+  "name": "msLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of msLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mastership.un@gmail.com/msLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mastership.un@gmail.com": "mastership.un@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mastership.un@gmail.com/msLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "msLibTest/Classes/**/*"
+}
