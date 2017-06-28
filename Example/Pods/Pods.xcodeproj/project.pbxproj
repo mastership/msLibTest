@@ -17,6 +17,8 @@
 		E7E73D47C4DEC61A6193C1FC282CD8A5 /* Pods-msLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B1F107846998638A1F9B337FC5043 /* Pods-msLibTest_Tests-dummy.m */; };
 		E80449A551EB1190B709EC81183C8EC8 /* msLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5498E9E358EA101098CDCA489F71DBE5 /* msLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBAB65846C4846C417E2A39937AFD974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA81D6641F0378F4004EA3B3 /* msLibTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */; };
+		FA81D6651F0378F4004EA3B3 /* msLibTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,25 +38,25 @@
 		3BBD69F5EAA9813E4FC7511C7C9AD5F4 /* Pods-msLibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msLibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3C00F8ACFE19EF15AEB072ED5347841B /* Pods-msLibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msLibTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		42EAEFD04E2B68E27BD8DEDD45749A87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43EACA0D454432E6BF73C3E7CC472766 /* Pods-msLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-msLibTest_Tests.modulemap"; sourceTree = "<group>"; };
+		43EACA0D454432E6BF73C3E7CC472766 /* Pods-msLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msLibTest_Tests.modulemap"; sourceTree = "<group>"; };
 		50FD68FCF6BA203CDF0DF82229830DEC /* Pods-msLibTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msLibTest_Example-resources.sh"; sourceTree = "<group>"; };
 		5498E9E358EA101098CDCA489F71DBE5 /* msLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msLibTest-umbrella.h"; sourceTree = "<group>"; };
 		5C02F8E9E351ECE2BEE8B4FFB71AF80C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C44D88D43C7721F58C443D838E095AC /* msLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = msLibTest.framework; path = msLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C44D88D43C7721F58C443D838E095AC /* msLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		692CA7172347077770C90CA42811D3CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725A406BFBC044354E63B99B514B14BE /* Pods-msLibTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msLibTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7A0624AE3C69989B1D2170D85E7F4E70 /* Pods-msLibTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msLibTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DFCEE3842A418DE1EE149045EA38E7D /* Pods-msLibTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msLibTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		806EC10B5E176624DF82CADCE7C44E53 /* Pods_msLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_msLibTest_Example.framework; path = "Pods-msLibTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EC10B5E176624DF82CADCE7C44E53 /* Pods_msLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B40EC9AA59153C0F02C079A17213DA /* Pods-msLibTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msLibTest_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AC8E8786527C63992D57DC87454A365 /* msLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = msLibTest.modulemap; sourceTree = "<group>"; };
-		9B87A24A61A9CB040FEE54C878CC3673 /* Pods-msLibTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-msLibTest_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AC8E8786527C63992D57DC87454A365 /* msLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = msLibTest.modulemap; sourceTree = "<group>"; };
+		9B87A24A61A9CB040FEE54C878CC3673 /* Pods-msLibTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-msLibTest_Example.modulemap"; sourceTree = "<group>"; };
 		9BE9E9319A8BB7E07BE9BE95D87610BE /* Pods-msLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA1F60F90FA2BD3EBEBB6ED3BF7F3894 /* Pods-msLibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msLibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B047D98DCA17916FE1BA7D8033BA31E2 /* Pods-msLibTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msLibTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1D27C766EEB5230CBEDCA1F297723D1 /* Pods_msLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_msLibTest_Tests.framework; path = "Pods-msLibTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D27C766EEB5230CBEDCA1F297723D1 /* Pods_msLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_msLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C315ED6497ACA51F8F2B5586305D1 /* msLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "msLibTest-prefix.pch"; sourceTree = "<group>"; };
 		BE6C591CC5B700A605170D62730CDB28 /* Pods-msLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msLibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		C4D01628D1784E14A06AD1ECB269DB9C /* Pods-msLibTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msLibTest_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		D27E37D13402C17CA358D80EE9066F2C /* msLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = msLibTest.xcconfig; sourceTree = "<group>"; };
 		DF641A6B96AE9CF981BD200290FA43D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F098D7DBA131CB2D5B6886D96EF08A8A /* Pods-msLibTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msLibTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msLibTestLog.h; sourceTree = "<group>"; };
+		FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = msLibTestLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,6 @@
 			children = (
 				32831AD97F325ED859C606407861EC0D /* Classes */,
 			);
-			name = msLibTest;
 			path = msLibTest;
 			sourceTree = "<group>";
 		};
@@ -142,8 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				DF641A6B96AE9CF981BD200290FA43D2 /* ReplaceMe.m */,
+				FA81D6621F0378F4004EA3B3 /* msLibTestLog.h */,
+				FA81D6631F0378F4004EA3B3 /* msLibTestLog.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -240,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80449A551EB1190B709EC81183C8EC8 /* msLibTest-umbrella.h in Headers */,
+				FA81D6641F0378F4004EA3B3 /* msLibTestLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA81D6651F0378F4004EA3B3 /* msLibTestLog.m in Sources */,
 				432BD8F4CA50230B7D96F0EE637B8AC4 /* msLibTest-dummy.m in Sources */,
 				5255C521942B9B9E4F8C4BE1712A579E /* ReplaceMe.m in Sources */,
 			);
